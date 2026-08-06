@@ -1,0 +1,236 @@
+from reportlab.lib.pagesizes import A4
+from reportlab.lib.units import mm
+from reportlab.lib.styles import ParagraphStyle
+from reportlab.lib.enums import TA_LEFT, TA_CENTER
+from reportlab.platypus import (
+    SimpleDocTemplate, Paragraph, Spacer, Table, TableStyle, HRFlowable, KeepTogether
+)
+from reportlab.lib import colors
+
+OUT = "/home/claude/etl_project/case_study/Pipeline_ETL_Case_Study.pdf"
+
+PAGE_W, PAGE_H = A4
+MARGIN = 16 * mm
+CONTENT_W = PAGE_W - 2 * MARGIN
+
+doc = SimpleDocTemplate(
+    OUT, pagesize=A4,
+    leftMargin=MARGIN, rightMargin=MARGIN,
+    topMargin=14 * mm, bottomMargin=14 * mm,
+)
+
+# ---------------------------------------------------------------
+# Paleta e estilos (mesma linguagem visual do case study de FP&A)
+# ---------------------------------------------------------------
+INK = colors.HexColor("#111827")
+MUTED = colors.HexColor("#6B7280")
+BODY = colors.HexColor("#374151")
+LIGHT = colors.HexColor("#9CA3AF")
+LINE = colors.HexColor("#E5E7EB")
+ROW_HL = colors.HexColor("#F4F4F5")
+BLUE = colors.HexColor("#2563EB")
+GREEN = colors.HexColor("#166534")
+RED = colors.HexColor("#9F1239")
+
+title_style = ParagraphStyle("Title", fontName="Helvetica-Bold", fontSize=19, leading=22, textColor=INK, spaceAfter=2)
+subtitle_style = ParagraphStyle("Subtitle", fontName="Helvetica", fontSize=10.5, leading=14, textColor=MUTED, spaceAfter=10)
+body_style = ParagraphStyle("Body", fontName="Helvetica", fontSize=9.5, leading=14, textColor=BODY, alignment=TA_LEFT, spaceAfter=8)
+section_style = ParagraphStyle("Section", fontName="Helvetica-Bold", fontSize=12, leading=15, textColor=INK, spaceBefore=14, spaceAfter=6)
+small_muted = ParagraphStyle("SmallMuted", fontName="Helvetica", fontSize=8.5, leading=12, textColor=MUTED)
+caption_style = ParagraphStyle("Caption", fontName="Helvetica-Oblique", fontSize=8, leading=10, textColor=LIGHT, spaceAfter=10)
+footer_style = ParagraphStyle("Footer", fontName="Helvetica", fontSize=8, leading=11, textColor=LIGHT)
+bullet_title = ParagraphStyle("BulletTitle", fontName="Helvetica-Bold", fontSize=9.5, leading=13, textColor=INK, spaceAfter=1)
+bullet_body = ParagraphStyle("BulletBody", fontName="Helvetica", fontSize=9, leading=12.5, textColor=colors.HexColor("#4B5563"), spaceAfter=9)
+
+story = []
+
+# ---------------------------------------------------------------
+# Cabeçalho
+# ---------------------------------------------------------------
+story.append(Paragraph("Pipeline de ETL: Cadastro de Clientes Multirregional", title_style))
+story.append(Paragraph("Estudo de caso &nbsp;·&nbsp; Python, pandas &nbsp;·&nbsp; Beatriz", subtitle_style))
+story.append(HRFlowable(width=CONTENT_W, thickness=1, color=LINE, spaceAfter=10))
+
+# ---------------------------------------------------------------
+# Problema
+# ---------------------------------------------------------------
+problema = (
+    "Quatro sistemas regionais exportam o cadastro de clientes em formatos totalmente distintos: "
+    "separadores diferentes (vírgula, ponto e vírgula, tabulação), encodings diferentes (UTF-8 e "
+    "Latin-1), convenções de data diferentes (DD/MM/AAAA, AAAA-MM-DD, texto \"DD-Mon-AAAA\" e até "
+    "número de série do Excel) e nomenclatura de coluna própria de cada sistema. Consolidar isso "
+    "manualmente é lento e sujeito a erro silencioso. Este pipeline automatiza extração, limpeza, "
+    "validação e deduplicação, produzindo uma base única confiável e um log auditável de cada "
+    "rejeição. Nada é descartado sem motivo registrado."
+)
+story.append(Paragraph(problema, body_style))
+
+# ---------------------------------------------------------------
+# Diagrama do pipeline (tabela como fluxo de etapas)
+# ---------------------------------------------------------------
+etapa_style = ParagraphStyle("Etapa", fontName="Helvetica-Bold", fontSize=9.5, leading=12, textColor=INK, alignment=TA_CENTER)
+etapa_desc_style = ParagraphStyle("EtapaDesc", fontName="Helvetica", fontSize=7.5, leading=10, textColor=MUTED, alignment=TA_CENTER)
+
+etapas = [
+    ("1. Extração", "Lê cada fonte com seu\nencoding/separador próprio"),
+    ("2. Limpeza", "Normaliza CNPJ e datas\npor formato de origem"),
+    ("3. Validação", "Rejeita e registra o\nmotivo de cada falha"),
+    ("4. Deduplicação", "Remove duplicatas exatas\ne cruzadas entre regionais"),
+    ("5. Consolidação", "Grava base única\n+ log de qualidade"),
+]
+
+col_w = CONTENT_W / 5
+linha_titulos = [Paragraph(t, etapa_style) for t, _ in etapas]
+linha_descs = [Paragraph(d.replace("\n", "<br/>"), etapa_desc_style) for _, d in etapas]
+
+tabela_pipeline = Table(
+    [linha_titulos, linha_descs],
+    colWidths=[col_w] * 5,
+    rowHeights=[16, 34],
+)
+tabela_pipeline.setStyle(TableStyle([
+    ("BOX", (0, 0), (-1, -1), 0.75, LINE),
+    ("INNERGRID", (0, 0), (-1, -1), 0.75, LINE),
+    ("BACKGROUND", (0, 0), (-1, 0), ROW_HL),
+    ("VALIGN", (0, 0), (-1, -1), "MIDDLE"),
+    ("TOPPADDING", (0, 0), (-1, -1), 6),
+    ("BOTTOMPADDING", (0, 0), (-1, -1), 6),
+]))
+story.append(Spacer(1, 4))
+story.append(tabela_pipeline)
+story.append(Spacer(1, 14))
+
+# ---------------------------------------------------------------
+# Métricas de qualidade
+# ---------------------------------------------------------------
+story.append(Paragraph("Resultado do Processamento", section_style))
+
+metricas = [
+    ["Linhas recebidas (4 fontes)", "418"],
+    ["Linhas aprovadas na base final", "410  (98,1%)"],
+    ["Linhas rejeitadas", "8  (1,9%)"],
+]
+tabela_metricas = Table(metricas, colWidths=[CONTENT_W * 0.6, CONTENT_W * 0.4])
+tabela_metricas.setStyle(TableStyle([
+    ("FONTNAME", (0, 0), (-1, -1), "Helvetica"),
+    ("FONTSIZE", (0, 0), (-1, -1), 9.5),
+    ("TEXTCOLOR", (0, 0), (0, -1), BODY),
+    ("FONTNAME", (1, 0), (1, -1), "Helvetica-Bold"),
+    ("TEXTCOLOR", (1, 0), (1, -1), INK),
+    ("ALIGN", (1, 0), (1, -1), "RIGHT"),
+    ("LINEBELOW", (0, 0), (-1, -2), 0.5, LINE),
+    ("TOPPADDING", (0, 0), (-1, -1), 5),
+    ("BOTTOMPADDING", (0, 0), (-1, -1), 5),
+]))
+story.append(tabela_metricas)
+story.append(Spacer(1, 10))
+
+story.append(Paragraph("Rejeições por motivo", ParagraphStyle("SubHead", fontName="Helvetica-Bold", fontSize=10, textColor=INK, spaceAfter=4)))
+motivos = [
+    ["Motivo", "Regional", "Ocorrências"],
+    ["CNPJ ausente ou em formato inválido", "Sudeste (2), Centro-Oeste (1)", "3"],
+    ["Data de cadastro ausente ou ilegível", "Sul", "2"],
+    ["Linha totalmente vazia", "Nordeste", "1"],
+    ["Linha duplicada (exata)", "Sudeste", "1"],
+    ["CNPJ duplicado entre regionais", "Sudeste / Sul", "1"],
+]
+tabela_motivos = Table(motivos, colWidths=[CONTENT_W * 0.5, CONTENT_W * 0.34, CONTENT_W * 0.16])
+tabela_motivos.setStyle(TableStyle([
+    ("FONTNAME", (0, 0), (-1, 0), "Helvetica-Bold"),
+    ("FONTSIZE", (0, 0), (-1, -1), 8.5),
+    ("TEXTCOLOR", (0, 0), (-1, 0), MUTED),
+    ("TEXTCOLOR", (0, 1), (-1, -1), BODY),
+    ("FONTNAME", (0, 1), (-1, -1), "Helvetica"),
+    ("ALIGN", (2, 0), (2, -1), "CENTER"),
+    ("LINEBELOW", (0, 0), (-1, 0), 1, LINE),
+    ("LINEBELOW", (0, 1), (-1, -2), 0.5, LINE),
+    ("TOPPADDING", (0, 0), (-1, -1), 5),
+    ("BOTTOMPADDING", (0, 0), (-1, -1), 5),
+]))
+story.append(tabela_motivos)
+
+story.append(Spacer(1, 4))
+story.append(Paragraph(
+    "Cada rejeição corresponde a uma inconsistência real e identificável, nenhuma é ruído "
+    "estatístico. O log completo, com o CNPJ ou identificador original de cada linha rejeitada, "
+    "fica disponível para auditoria em <font face='Courier'>log_qualidade.csv</font>.",
+    caption_style
+))
+
+story.append(HRFlowable(width=CONTENT_W, thickness=1, color=LINE, spaceBefore=4, spaceAfter=10))
+
+# ---------------------------------------------------------------
+# Antes / Depois
+# ---------------------------------------------------------------
+story.append(Paragraph("Exemplo: Antes e Depois", section_style))
+
+antes_depois = [
+    ["Campo", "Origem (Nordeste, bruto)", "Base consolidada (limpo)"],
+    ["CNPJ", "44.171.545/0001-45", "44171545000145"],
+    ["Data de cadastro", "25-Nov-2025 (texto)", "2025-11-25 (ISO)"],
+    ["Cidade / UF", "Fortaleza/CE (campo único)", "Fortaleza  |  CE (campos separados)"],
+]
+tabela_ad = Table(antes_depois, colWidths=[CONTENT_W * 0.22, CONTENT_W * 0.39, CONTENT_W * 0.39])
+tabela_ad.setStyle(TableStyle([
+    ("FONTNAME", (0, 0), (-1, 0), "Helvetica-Bold"),
+    ("FONTSIZE", (0, 0), (-1, -1), 8.5),
+    ("TEXTCOLOR", (0, 0), (-1, 0), MUTED),
+    ("TEXTCOLOR", (0, 1), (-1, -1), BODY),
+    ("FONTNAME", (0, 1), (0, -1), "Helvetica-Bold"),
+    ("FONTNAME", (1, 1), (-1, -1), "Courier"),
+    ("FONTSIZE", (1, 1), (-1, -1), 8),
+    ("LINEBELOW", (0, 0), (-1, 0), 1, LINE),
+    ("LINEBELOW", (0, 1), (-1, -2), 0.5, LINE),
+    ("BACKGROUND", (2, 1), (2, -1), ROW_HL),
+    ("TOPPADDING", (0, 0), (-1, -1), 6),
+    ("BOTTOMPADDING", (0, 0), (-1, -1), 6),
+]))
+story.append(tabela_ad)
+story.append(Spacer(1, 14))
+
+# ---------------------------------------------------------------
+# Decisões técnicas
+# ---------------------------------------------------------------
+decisoes = [
+    (
+        "CNPJ sempre lido como texto, nunca como número",
+        "O pandas infere tipo numérico em colunas só com dígitos e descarta zeros à esquerda "
+        "silenciosamente. Forçar dtype=str na leitura evita corromper ~34% da base. Foi o "
+        "primeiro bug real encontrado ao rodar o pipeline pela primeira vez.",
+    ),
+    (
+        "Data interpretada pelo formato conhecido da origem, nunca adivinhada",
+        "pandas.to_datetime sem formato explícito assume convenções que variam por regional "
+        "(MM/DD vs DD/MM) e falha silenciosamente em ambiguidade. Cada fonte declara seu próprio "
+        "formato, e uma data que não bate é rejeitada, não adivinhada.",
+    ),
+    (
+        "Toda rejeição é registrada com motivo, nunca descartada em silêncio",
+        "Um pipeline que só reporta \"quantas linhas passaram\" esconde problema. Este grava "
+        "regional, identificador original e motivo de cada rejeição, tornando o processo auditável.",
+    ),
+]
+
+story.append(KeepTogether([
+    Paragraph("Decisões Técnicas", section_style),
+    Paragraph(decisoes[0][0], bullet_title),
+    Paragraph(decisoes[0][1], bullet_body),
+]))
+for titulo, texto in decisoes[1:]:
+    story.append(KeepTogether([
+        Paragraph(titulo, bullet_title),
+        Paragraph(texto, bullet_body),
+    ]))
+
+# ---------------------------------------------------------------
+# Rodapé
+# ---------------------------------------------------------------
+story.append(HRFlowable(width=CONTENT_W, thickness=1, color=LINE, spaceBefore=6, spaceAfter=6))
+story.append(Paragraph(
+    "Dados fictícios, gerados para fins de portfólio. Ferramentas: Python, pandas, regex. "
+    "Código completo (geração de dados, pipeline e testes) disponível no repositório.",
+    footer_style
+))
+
+doc.build(story)
+print("PDF gerado:", OUT)
