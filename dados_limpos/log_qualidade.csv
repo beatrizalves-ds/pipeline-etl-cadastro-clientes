@@ -1,0 +1,9 @@
+regional,identificador_original,motivo_rejeicao
+Sudeste,,CNPJ ausente ou em formato inválido
+Sudeste,101226910,CNPJ ausente ou em formato inválido
+Sul,54990453000117,Data de cadastro ausente ou ilegível
+Sul,85445877000122,Data de cadastro ausente ou ilegível
+Nordeste,(linha em branco),Linha totalmente vazia
+Centro-Oeste,93983O84000156,CNPJ ausente ou em formato inválido
+Sudeste,31781080000121,Linha duplicada (exata)
+Sudeste,77752047000124,CNPJ duplicado entre regionais — mantido o cadastro mais recente
