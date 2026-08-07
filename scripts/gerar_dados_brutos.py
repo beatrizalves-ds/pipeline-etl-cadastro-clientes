@@ -1,6 +1,6 @@
 """
 Gera 4 arquivos de origem "sujos", simulando exportações de 4 sistemas
-regionais diferentes de cadastro de clientes — cada um com seu próprio
+regionais diferentes de cadastro de clientes, cada um com seu próprio
 formato de coluna, separador, encoding e formato de data, como acontece
 de verdade quando cada regional opera com uma ferramenta distinta.
 """
@@ -67,7 +67,7 @@ def gerar_linhas(regional, n):
     return linhas, cnpjs_usados
 
 # =================================================================
-# SUDESTE — CSV, UTF-8, vírgula, formato "limpo" de referência
+# SUDESTE: CSV, UTF-8, vírgula, formato "limpo" de referência
 # =================================================================
 linhas, cnpjs_se = gerar_linhas("Sudeste", 140)
 
@@ -85,7 +85,7 @@ df_se = df_se.rename(columns={
 df_se.to_csv("/home/claude/etl_project/dados_brutos/sudeste_clientes.csv", index=False, encoding="utf-8")
 
 # =================================================================
-# SUL — CSV, Latin-1, ponto e vírgula, nomes de coluna em minúsculo,
+# SUL: CSV, Latin-1, ponto e vírgula, nomes de coluna em minúsculo,
 # data em ISO, alguns dias inválidos (erro de digitação)
 # =================================================================
 linhas, cnpjs_sul = gerar_linhas("Sul", 110)
@@ -111,7 +111,7 @@ df_sul.to_csv(
 )
 
 # =================================================================
-# NORDESTE — Excel, cabeçalhos em maiúsculo, cidade/UF combinados,
+# NORDESTE: Excel, cabeçalhos em maiúsculo, cidade/UF combinados,
 # datas em texto "DD-Mon-AAAA", linha totalmente vazia
 # =================================================================
 linhas, cnpjs_ne = gerar_linhas("Nordeste", 95)
@@ -133,7 +133,7 @@ df_ne = pd.concat([df_ne.iloc[:40], pd.DataFrame([{c: None for c in df_ne.column
 df_ne.to_excel("/home/claude/etl_project/dados_brutos/nordeste_clientes.xlsx", index=False)
 
 # =================================================================
-# CENTRO-OESTE — CSV, tabulação, CNPJ com letra por erro de digitação,
+# CENTRO-OESTE: CSV, tabulação, CNPJ com letra por erro de digitação,
 # data em formato numérico serial do Excel, cabeçalhos capitalizados distintos
 # =================================================================
 linhas, cnpjs_co = gerar_linhas("Centro-Oeste", 70)
