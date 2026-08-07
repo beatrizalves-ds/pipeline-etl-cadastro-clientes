@@ -11,7 +11,7 @@ nomenclatura próprios, em uma base única, limpa e auditável.
 
 ## O problema
 
-Cada regional exporta seu cadastro de clientes com sua própria "sotaque" de
+Cada regional exporta seu cadastro de clientes com seu próprio "sotaque" de
 dados:
 
 | Regional | Formato | Encoding | Separador | Formato de data |
