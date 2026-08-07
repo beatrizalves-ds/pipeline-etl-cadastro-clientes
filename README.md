@@ -1,5 +1,7 @@
 # Pipeline de ETL: Cadastro de Clientes Multirregional
 
+![Testes](https://github.com/beatrizalves-ds/pipeline-etl-cadastro-clientes/actions/workflows/tests.yml/badge.svg)
+
 Pipeline em Python que consolida cadastros de clientes vindos de 4 sistemas
 regionais diferentes, cada um exportando em formato, encoding e
 nomenclatura próprios, em uma base única, limpa e auditável.
@@ -33,12 +35,27 @@ pipeline automatiza extração, limpeza, validação e deduplicação.
       log_qualidade.csv          toda rejeição, com motivo e identificador original
     case_study/
       Pipeline_ETL_Case_Study.pdf   resumo executivo do projeto
+    tests/
+      test_pipeline.py        testes automatizados de ponta a ponta
 
 ## Como rodar
 
     pip install pandas openpyxl
     python scripts/gerar_dados_brutos.py   # gera os 4 arquivos de origem
     python scripts/pipeline_etl.py         # roda o pipeline completo
+
+## Como validar que funciona
+
+O pipeline é determinístico (usa uma semente fixa na geração dos dados), então
+rodar os dois comandos acima em qualquer computador produz exatamente os
+mesmos números documentados abaixo. Além disso, o repositório tem uma suíte
+de testes automatizados que roda o pipeline do zero e confere cada resultado:
+
+    pip install pytest
+    python -m pytest tests/ -v
+
+O selo no topo deste README mostra o resultado da última execução automática
+desses testes, disparada a cada alteração no código.
 
 ## Resultado
 
@@ -67,4 +84,4 @@ pipeline automatiza extração, limpeza, validação e deduplicação.
 
 ## Ferramentas
 
-Python, pandas, regex.
+Python, pandas, regex, pytest, GitHub Actions.
