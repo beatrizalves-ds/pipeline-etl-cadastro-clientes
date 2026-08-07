@@ -1,5 +1,5 @@
 """
-Pipeline de ETL — Consolidação de Cadastro de Clientes Multirregional
+Pipeline de ETL: Consolidação de Cadastro de Clientes Multirregional
 ======================================================================
 Recebe 4 exportações de sistemas regionais diferentes (formatos,
 encodings, nomenclaturas e convenções de data distintos) e produz:
@@ -34,7 +34,7 @@ def registrar_rejeicao(regional, identificador, motivo):
 
 
 # ---------------------------------------------------------------
-# 1. EXTRAÇÃO — cada fonte tem sua própria rotina de leitura,
+# 1. EXTRAÇÃO: cada fonte tem sua própria rotina de leitura,
 #    porque cada uma tem encoding/separador/formato próprios
 # ---------------------------------------------------------------
 def ler_sudeste():
@@ -66,7 +66,7 @@ def ler_nordeste():
         "CNPJ CLIENTE": "cnpj", "NOME FANTASIA": "nome", "VENDEDOR RESPONSAVEL": "vendedor",
         "DATA CADASTRO": "data_cadastro_raw", "CIDADE/UF": "cidade_uf", "SEGMENTO": "segmento",
     })
-    # cidade/UF vêm combinados nessa origem — separa em duas colunas
+    # cidade/UF vêm combinados nessa origem, separa em duas colunas
     cid_uf = df["cidade_uf"].str.split("/", n=1, expand=True)
     df["cidade"] = cid_uf[0]
     df["uf"] = cid_uf[1]
@@ -88,7 +88,7 @@ def ler_centro_oeste():
 
 
 # ---------------------------------------------------------------
-# 2. LIMPEZA — normaliza CNPJ e datas para um padrão único,
+# 2. LIMPEZA: normaliza CNPJ e datas para um padrão único,
 #    registrando rejeição sempre que o dado não puder ser confiavelmente
 #    interpretado (preferível a adivinhar e mascarar um erro)
 # ---------------------------------------------------------------
@@ -98,7 +98,7 @@ def normalizar_cnpj(valor):
         return None
     limpo = re.sub(r"[^0-9A-Za-z]", "", str(valor))
     if not limpo.isdigit():
-        return None  # contém letra (erro de digitação) — não tenta adivinhar
+        return None  # contém letra (erro de digitação), não tenta adivinhar
     if len(limpo) != 14:
         return None  # tamanho incompatível com CNPJ
     return limpo
@@ -168,7 +168,7 @@ def limpar_regional(df):
 
 
 # ---------------------------------------------------------------
-# 3. VALIDAÇÃO CRUZADA — duplicidade DENTRO da mesma regional
+# 3. VALIDAÇÃO CRUZADA: duplicidade DENTRO da mesma regional
 #    e duplicidade ENTRE regionais (mesmo CNPJ cadastrado 2x)
 # ---------------------------------------------------------------
 def remover_duplicados(df_consolidado):
@@ -187,7 +187,7 @@ def remover_duplicados(df_consolidado):
     for _, linha in df_consolidado[dup_cnpj].iterrows():
         registrar_rejeicao(
             linha["regional"], linha["cnpj"],
-            "CNPJ duplicado entre regionais — mantido o cadastro mais recente"
+            "CNPJ duplicado entre regionais, mantido o cadastro mais recente"
         )
     df_consolidado = df_consolidado[~dup_cnpj]
 
