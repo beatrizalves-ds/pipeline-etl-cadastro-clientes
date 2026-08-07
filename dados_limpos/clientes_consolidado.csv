@@ -1,0 +1,411 @@
+cnpj,nome,vendedor,data_cadastro,cidade,uf,segmento,regional
+86852897000155,Atacado Bom Sucesso EIRELI,Ricardo Melo,2025-05-31,Campo Grande,MS,Serviços,Centro-Oeste
+49058077000175,Atacado Bom Sucesso ME,Fernanda Costa,2024-08-26,Brasília,DF,Serviços,Centro-Oeste
+68936392000164,Atacado Bom Sucesso ME,Bruno Teixeira,2023-09-27,Campo Grande,MS,Indústria,Centro-Oeste
+82761539000165,Atacado Bom Sucesso S.A.,Marcos Lima,2023-06-09,Brasília,DF,Distribuição,Centro-Oeste
+10463681000150,Atacado Cerrado Ltda,Marcos Lima,2024-02-12,Brasília,DF,Distribuição,Centro-Oeste
+20949407000184,Atacado Norte EIRELI,Larissa Pinto,2023-02-25,Cuiabá,MT,Serviços,Centro-Oeste
+22410988000123,Atacado Nova Era EIRELI,Pedro Santos,2023-10-17,Cuiabá,MT,Serviços,Centro-Oeste
+17946954000177,Atacado Nova Era S.A.,Larissa Pinto,2026-02-26,Rondonópolis,MT,Agronegócio,Centro-Oeste
+44857086000133,Atacado Nova Era S.A.,Fernanda Costa,2023-05-10,Goiânia,GO,Distribuição,Centro-Oeste
+02203173000122,Atacado Primavera ME,Bruno Teixeira,2026-04-23,Goiânia,GO,Serviços,Centro-Oeste
+51240568000131,Atacado Primavera S.A.,Larissa Pinto,2023-08-28,Rondonópolis,MT,Serviços,Centro-Oeste
+73928557000145,Atacado Progresso Ltda,Bruno Teixeira,2023-11-14,Rondonópolis,MT,Agronegócio,Centro-Oeste
+39060480000150,Atacado União EIRELI,Bruno Teixeira,2024-03-28,Rondonópolis,MT,Indústria,Centro-Oeste
+53833884000180,Atacado União Ltda,Ricardo Melo,2026-04-08,Brasília,DF,Distribuição,Centro-Oeste
+82307681000110,Comercial Aliança EIRELI,Camila Rocha,2023-04-05,Campo Grande,MS,Varejo,Centro-Oeste
+72649082000169,Comercial Atlântico Ltda,Marcos Lima,2026-04-13,Brasília,DF,Distribuição,Centro-Oeste
+27919409000158,Comercial Bom Sucesso EIRELI,Ricardo Melo,2025-05-03,Goiânia,GO,Varejo,Centro-Oeste
+09480141000137,Comercial Central S.A.,Bruno Teixeira,2025-02-28,Rondonópolis,MT,Indústria,Centro-Oeste
+87729343000110,Comercial Cordilheira Ltda,Juliana Alves,2026-06-14,Goiânia,GO,Agronegócio,Centro-Oeste
+58573065000127,Comercial Meridional ME,Bruno Teixeira,2024-08-26,Campo Grande,MS,Distribuição,Centro-Oeste
+09738468000183,Comercial Norte ME,Fernanda Costa,2023-08-20,Campo Grande,MS,Distribuição,Centro-Oeste
+71284781000176,Comercial Planalto ME,Ana Ribeiro,2026-01-09,Rondonópolis,MT,Distribuição,Centro-Oeste
+52245933000142,Comercial Primavera S.A.,Ana Ribeiro,2024-10-26,Campo Grande,MS,Agronegócio,Centro-Oeste
+26657027000185,Distribuidora Aliança EIRELI,Fernanda Costa,2023-12-02,Cuiabá,MT,Varejo,Centro-Oeste
+11751868000188,Distribuidora Cerrado ME,Carlos Souza,2023-12-16,Cuiabá,MT,Serviços,Centro-Oeste
+99733549000196,Distribuidora Nova Era Ltda,Larissa Pinto,2023-01-17,Campo Grande,MS,Distribuição,Centro-Oeste
+79692786000180,Distribuidora Nova Era S.A.,Marcos Lima,2025-05-19,Brasília,DF,Distribuição,Centro-Oeste
+28161581000148,Distribuidora Primavera ME,Juliana Alves,2026-06-25,Rondonópolis,MT,Indústria,Centro-Oeste
+55770171000154,Distribuidora Progresso EIRELI,Fernanda Costa,2026-05-22,Brasília,DF,Distribuição,Centro-Oeste
+02099451000116,Distribuidora Progresso S.A.,Pedro Santos,2026-06-05,Goiânia,GO,Distribuição,Centro-Oeste
+53559042000154,Distribuidora União ME,Carlos Souza,2024-04-23,Rondonópolis,MT,Indústria,Centro-Oeste
+96566668000137,Distribuidora União S.A.,Bruno Teixeira,2025-02-26,Cuiabá,MT,Serviços,Centro-Oeste
+06799813000165,Distribuidora União S.A.,Fernanda Costa,2023-06-19,Campo Grande,MS,Agronegócio,Centro-Oeste
+60558303000198,Grupo Aliança EIRELI,Pedro Santos,2025-11-03,Campo Grande,MS,Distribuição,Centro-Oeste
+27278576000117,Grupo Bom Sucesso Ltda,Juliana Alves,2026-03-28,Rondonópolis,MT,Serviços,Centro-Oeste
+01662997000188,Grupo Bom Sucesso S.A.,Bruno Teixeira,2023-06-10,Campo Grande,MS,Agronegócio,Centro-Oeste
+52110392000146,Grupo Central EIRELI,Camila Rocha,2025-08-22,Goiânia,GO,Varejo,Centro-Oeste
+86240580000110,Grupo Central EIRELI,Carlos Souza,2024-04-26,Rondonópolis,MT,Agronegócio,Centro-Oeste
+84094353000134,Grupo Cerrado EIRELI,Camila Rocha,2023-08-29,Campo Grande,MS,Serviços,Centro-Oeste
+38392886000123,Grupo Cordilheira ME,Ana Ribeiro,2023-12-08,Rondonópolis,MT,Indústria,Centro-Oeste
+03178078000129,Grupo Meridional EIRELI,Fernanda Costa,2023-10-21,Cuiabá,MT,Varejo,Centro-Oeste
+98279501000148,Grupo Primavera Ltda,Ricardo Melo,2026-02-01,Campo Grande,MS,Varejo,Centro-Oeste
+71997581000166,Grupo Primavera Ltda,Larissa Pinto,2023-08-11,Cuiabá,MT,Distribuição,Centro-Oeste
+92222064000149,Grupo Progresso Ltda,Marcos Lima,2024-02-20,Brasília,DF,Varejo,Centro-Oeste
+50461735000167,Indústria Atlântico EIRELI,Marcos Lima,2023-08-18,Campo Grande,MS,Serviços,Centro-Oeste
+50155699000113,Indústria Bom Sucesso EIRELI,Camila Rocha,2025-08-29,Cuiabá,MT,Varejo,Centro-Oeste
+94077780000187,Indústria Horizonte ME,Camila Rocha,2025-04-19,Brasília,DF,Agronegócio,Centro-Oeste
+28975267000170,Indústria Horizonte S.A.,Carlos Souza,2025-04-16,Cuiabá,MT,Varejo,Centro-Oeste
+90864168000165,Indústria Meridional S.A.,Camila Rocha,2025-03-20,Cuiabá,MT,Distribuição,Centro-Oeste
+19903849000190,Indústria Norte S.A.,Marcos Lima,2023-04-23,Rondonópolis,MT,Serviços,Centro-Oeste
+20994999000139,Indústria Planalto Ltda,Fernanda Costa,2023-06-12,Rondonópolis,MT,Agronegócio,Centro-Oeste
+38860868000190,Indústria Serra ME,Ricardo Melo,2024-09-15,Goiânia,GO,Serviços,Centro-Oeste
+92171747000170,Indústria União EIRELI,Fernanda Costa,2025-03-13,Cuiabá,MT,Indústria,Centro-Oeste
+43840460000181,Indústria União EIRELI,Ricardo Melo,2023-10-09,Campo Grande,MS,Varejo,Centro-Oeste
+65701329000191,Indústria União ME,Bruno Teixeira,2024-08-19,Goiânia,GO,Agronegócio,Centro-Oeste
+93214958000166,Indústria Vitória ME,Carlos Souza,2023-08-05,Goiânia,GO,Agronegócio,Centro-Oeste
+38983314000165,Rede Aliança Ltda,Ricardo Melo,2025-05-17,Campo Grande,MS,Serviços,Centro-Oeste
+63878294000151,Rede Bom Sucesso Ltda,Ana Ribeiro,2025-12-07,Brasília,DF,Varejo,Centro-Oeste
+46333127000188,Rede Bom Sucesso ME,Juliana Alves,2025-05-25,Brasília,DF,Agronegócio,Centro-Oeste
+27195005000192,Rede Cerrado Ltda,Marcos Lima,2025-09-26,Cuiabá,MT,Indústria,Centro-Oeste
+62422010000128,Rede Estrela S.A.,Ana Ribeiro,2023-10-09,Brasília,DF,Agronegócio,Centro-Oeste
+47214586000177,Rede Horizonte Ltda,Ana Ribeiro,2026-03-16,Cuiabá,MT,Distribuição,Centro-Oeste
+12520566000148,Rede Litoral S.A.,Juliana Alves,2023-08-07,Brasília,DF,Indústria,Centro-Oeste
+08240433000150,Rede Litoral S.A.,Ana Ribeiro,2023-03-19,Goiânia,GO,Agronegócio,Centro-Oeste
+05391037000120,Rede Norte EIRELI,Bruno Teixeira,2025-05-01,Brasília,DF,Serviços,Centro-Oeste
+09656999000178,Rede Norte Ltda,Camila Rocha,2025-07-24,Rondonópolis,MT,Varejo,Centro-Oeste
+29832482000165,Rede Progresso EIRELI,Ana Ribeiro,2026-02-15,Cuiabá,MT,Distribuição,Centro-Oeste
+78003845000172,Rede Progresso Ltda,Fernanda Costa,2024-12-21,Brasília,DF,Serviços,Centro-Oeste
+04204394000116,Rede Vitória Ltda,Ricardo Melo,2024-07-09,Brasília,DF,Serviços,Centro-Oeste
+29298425000168,Atacado Aliança S.A.,Ricardo Melo,2025-02-28,Maceió,AL,Indústria,Nordeste
+15832818000130,Atacado Cerrado ME,Ana Ribeiro,2024-12-16,Natal,RN,Indústria,Nordeste
+58004397000138,Atacado Cerrado S.A.,Juliana Alves,2024-08-25,Fortaleza,CE,Agronegócio,Nordeste
+91624731000146,Atacado Estrela EIRELI,Juliana Alves,2023-01-12,Maceió,AL,Varejo,Nordeste
+58902601000128,Atacado Estrela Ltda,Ana Ribeiro,2024-06-22,Natal,RN,Indústria,Nordeste
+61891411000173,Atacado Horizonte EIRELI,Bruno Teixeira,2024-02-18,Salvador,BA,Serviços,Nordeste
+01367303000168,Atacado Horizonte ME,Ricardo Melo,2024-10-01,Recife,PE,Serviços,Nordeste
+21228160000164,Atacado Litoral S.A.,Marcos Lima,2026-04-11,Fortaleza,CE,Serviços,Nordeste
+86959463000162,Atacado Meridional S.A.,Fernanda Costa,2026-02-19,Maceió,AL,Distribuição,Nordeste
+57051204000160,Atacado Meridional S.A.,Juliana Alves,2024-05-27,Recife,PE,Agronegócio,Nordeste
+42834110000174,Atacado Primavera S.A.,Carlos Souza,2026-02-03,Recife,PE,Serviços,Nordeste
+09991738000125,Atacado Serra ME,Carlos Souza,2023-11-05,Natal,RN,Indústria,Nordeste
+03928272000132,Atacado União ME,Fernanda Costa,2023-03-24,Maceió,AL,Indústria,Nordeste
+16979729000158,Atacado Vitória S.A.,Camila Rocha,2025-09-26,Fortaleza,CE,Varejo,Nordeste
+51701660000181,Comercial Aliança EIRELI,Bruno Teixeira,2026-02-25,Maceió,AL,Indústria,Nordeste
+61386120000168,Comercial Aliança Ltda,Carlos Souza,2023-12-31,Fortaleza,CE,Serviços,Nordeste
+33163735000123,Comercial Central ME,Camila Rocha,2026-04-21,Natal,RN,Distribuição,Nordeste
+64890901000193,Comercial Central ME,Camila Rocha,2025-02-17,Recife,PE,Varejo,Nordeste
+88043416000196,Comercial Cerrado S.A.,Camila Rocha,2024-10-04,Fortaleza,CE,Serviços,Nordeste
+20881474000135,Comercial Horizonte Ltda,Juliana Alves,2025-06-08,Fortaleza,CE,Serviços,Nordeste
+95543937000161,Comercial Litoral S.A.,Ricardo Melo,2025-11-02,Maceió,AL,Varejo,Nordeste
+02341326000123,Comercial Meridional Ltda,Carlos Souza,2025-03-24,Recife,PE,Distribuição,Nordeste
+51906698000146,Comercial Progresso ME,Camila Rocha,2023-01-22,Maceió,AL,Indústria,Nordeste
+14139755000126,Comercial Serra Ltda,Juliana Alves,2024-10-12,Salvador,BA,Agronegócio,Nordeste
+82100996000178,Comercial Serra S.A.,Fernanda Costa,2024-03-09,Maceió,AL,Agronegócio,Nordeste
+60302992000127,Comercial União Ltda,Marcos Lima,2024-06-12,Maceió,AL,Indústria,Nordeste
+41797497000134,Comercial União Ltda,Bruno Teixeira,2023-02-15,Fortaleza,CE,Indústria,Nordeste
+98180635000162,Comercial União ME,Larissa Pinto,2024-06-03,Fortaleza,CE,Serviços,Nordeste
+64208737000152,Comercial Vitória Ltda,Ana Ribeiro,2026-03-21,Salvador,BA,Agronegócio,Nordeste
+88725639000147,Distribuidora Atlântico Ltda,Ricardo Melo,2025-01-15,Salvador,BA,Distribuição,Nordeste
+81934667000190,Distribuidora Bom Sucesso Ltda,Ricardo Melo,2023-08-31,Natal,RN,Distribuição,Nordeste
+27187500000196,Distribuidora Central EIRELI,Fernanda Costa,2026-06-08,Salvador,BA,Serviços,Nordeste
+64525777000155,Distribuidora Cerrado Ltda,Marcos Lima,2026-05-27,Fortaleza,CE,Varejo,Nordeste
+28463920000177,Distribuidora Cerrado Ltda,Bruno Teixeira,2024-12-12,Natal,RN,Agronegócio,Nordeste
+54083866000140,Distribuidora Cordilheira ME,Ana Ribeiro,2025-10-17,Recife,PE,Agronegócio,Nordeste
+28434795000156,Distribuidora Estrela S.A.,Ricardo Melo,2025-02-01,Salvador,BA,Serviços,Nordeste
+14427031000129,Distribuidora Horizonte EIRELI,Ricardo Melo,2024-09-30,Recife,PE,Agronegócio,Nordeste
+22259136000152,Distribuidora Meridional ME,Juliana Alves,2026-04-24,Recife,PE,Indústria,Nordeste
+73145303000176,Distribuidora Meridional ME,Carlos Souza,2023-03-23,Fortaleza,CE,Serviços,Nordeste
+86990413000167,Distribuidora Meridional S.A.,Juliana Alves,2025-04-21,Maceió,AL,Distribuição,Nordeste
+10388629000122,Distribuidora Norte Ltda,Ana Ribeiro,2025-09-14,Salvador,BA,Indústria,Nordeste
+21811437000147,Distribuidora Norte Ltda,Marcos Lima,2023-03-22,Fortaleza,CE,Serviços,Nordeste
+75503758000189,Distribuidora Nova Era ME,Ana Ribeiro,2023-07-19,Maceió,AL,Indústria,Nordeste
+98068650000199,Distribuidora Planalto ME,Ricardo Melo,2024-12-18,Maceió,AL,Distribuição,Nordeste
+49308536000181,Distribuidora Planalto S.A.,Ricardo Melo,2025-02-13,Natal,RN,Indústria,Nordeste
+09652074000143,Distribuidora Primavera Ltda,Larissa Pinto,2026-03-17,Natal,RN,Indústria,Nordeste
+71694722000191,Distribuidora Primavera Ltda,Ana Ribeiro,2023-11-28,Fortaleza,CE,Serviços,Nordeste
+56289002000174,Distribuidora Progresso Ltda,Camila Rocha,2024-10-18,Natal,RN,Indústria,Nordeste
+75949299000156,Distribuidora Progresso Ltda,Fernanda Costa,2024-05-19,Fortaleza,CE,Indústria,Nordeste
+55216674000159,Distribuidora Progresso Ltda,Marcos Lima,2023-05-01,Natal,RN,Indústria,Nordeste
+27026728000178,Distribuidora Serra EIRELI,Bruno Teixeira,2026-03-08,Fortaleza,CE,Varejo,Nordeste
+96884578000139,Distribuidora Serra EIRELI,Ricardo Melo,2024-06-16,Recife,PE,Indústria,Nordeste
+05548851000115,Distribuidora União ME,Ana Ribeiro,2024-06-04,Salvador,BA,Distribuição,Nordeste
+20055778000144,Distribuidora União S.A.,Larissa Pinto,2026-05-08,Maceió,AL,Agronegócio,Nordeste
+18449892000158,Grupo Aliança EIRELI,Ricardo Melo,2024-04-01,Natal,RN,Distribuição,Nordeste
+21117908000115,Grupo Bom Sucesso ME,Larissa Pinto,2024-07-16,Natal,RN,Agronegócio,Nordeste
+21689421000115,Grupo Cordilheira EIRELI,Ricardo Melo,2023-10-02,Fortaleza,CE,Serviços,Nordeste
+81845184000178,Grupo Cordilheira ME,Larissa Pinto,2025-09-17,Maceió,AL,Indústria,Nordeste
+95866934000160,Grupo Cordilheira S.A.,Marcos Lima,2025-04-25,Fortaleza,CE,Distribuição,Nordeste
+51587996000196,Grupo Estrela Ltda,Bruno Teixeira,2023-08-07,Maceió,AL,Varejo,Nordeste
+41638944000193,Grupo Estrela S.A.,Ana Ribeiro,2024-01-09,Maceió,AL,Indústria,Nordeste
+82513534000163,Grupo Litoral EIRELI,Camila Rocha,2023-08-30,Fortaleza,CE,Agronegócio,Nordeste
+61203471000167,Grupo Nova Era EIRELI,Bruno Teixeira,2026-02-15,Fortaleza,CE,Serviços,Nordeste
+55611002000194,Grupo Nova Era ME,Larissa Pinto,2024-07-03,Salvador,BA,Varejo,Nordeste
+35697252000120,Grupo Progresso EIRELI,Carlos Souza,2023-01-10,Natal,RN,Agronegócio,Nordeste
+67014508000183,Indústria Bom Sucesso Ltda,Ricardo Melo,2024-05-24,Maceió,AL,Agronegócio,Nordeste
+87704358000120,Indústria Cerrado Ltda,Ana Ribeiro,2024-03-07,Recife,PE,Indústria,Nordeste
+64729293000122,Indústria Cerrado ME,Ricardo Melo,2024-02-06,Fortaleza,CE,Indústria,Nordeste
+62003424000197,Indústria Norte EIRELI,Juliana Alves,2026-01-13,Fortaleza,CE,Varejo,Nordeste
+65577908000127,Indústria Planalto Ltda,Bruno Teixeira,2024-07-29,Natal,RN,Indústria,Nordeste
+39423733000140,Indústria Planalto S.A.,Juliana Alves,2026-06-20,Fortaleza,CE,Serviços,Nordeste
+27080869000171,Indústria Progresso S.A.,Ana Ribeiro,2025-03-04,Maceió,AL,Distribuição,Nordeste
+50615939000183,Indústria Serra EIRELI,Fernanda Costa,2025-11-11,Maceió,AL,Agronegócio,Nordeste
+53875842000194,Indústria Serra Ltda,Camila Rocha,2023-09-20,Maceió,AL,Serviços,Nordeste
+14656693000176,Rede Aliança Ltda,Bruno Teixeira,2024-08-05,Recife,PE,Distribuição,Nordeste
+84723046000194,Rede Atlântico EIRELI,Larissa Pinto,2026-05-25,Recife,PE,Indústria,Nordeste
+35544964000166,Rede Atlântico ME,Ricardo Melo,2023-12-09,Fortaleza,CE,Indústria,Nordeste
+43292712000188,Rede Estrela ME,Ricardo Melo,2025-09-04,Natal,RN,Agronegócio,Nordeste
+40082547000178,Rede Meridional ME,Pedro Santos,2023-01-19,Recife,PE,Agronegócio,Nordeste
+02491630000115,Rede Meridional S.A.,Fernanda Costa,2023-07-03,Maceió,AL,Indústria,Nordeste
+84309883000188,Rede Norte EIRELI,Juliana Alves,2023-01-01,Salvador,BA,Indústria,Nordeste
+82223943000124,Rede Norte ME,Bruno Teixeira,2023-05-30,Salvador,BA,Serviços,Nordeste
+84858333000189,Rede Nova Era S.A.,Marcos Lima,2025-10-28,Fortaleza,CE,Distribuição,Nordeste
+57790714000118,Rede Planalto S.A.,Fernanda Costa,2025-04-24,Natal,RN,Serviços,Nordeste
+74495621000139,Rede Progresso Ltda,Juliana Alves,2025-11-07,Natal,RN,Agronegócio,Nordeste
+09190158000123,Rede Serra Ltda,Pedro Santos,2025-06-15,Fortaleza,CE,Agronegócio,Nordeste
+57198386000140,Rede Serra Ltda,Ricardo Melo,2025-03-04,Maceió,AL,Agronegócio,Nordeste
+99305616000142,Rede Serra Ltda,Bruno Teixeira,2025-02-06,Maceió,AL,Distribuição,Nordeste
+05720259000116,Rede Serra ME,Larissa Pinto,2026-01-31,Maceió,AL,Serviços,Nordeste
+11492164000139,Rede Serra ME,Marcos Lima,2023-09-26,Salvador,BA,Distribuição,Nordeste
+44171545000145,Rede Serra S.A.,Marcos Lima,2025-11-25,Fortaleza,CE,Indústria,Nordeste
+60728326000179,Rede União EIRELI,Fernanda Costa,2023-01-23,Fortaleza,CE,Distribuição,Nordeste
+35554398000170,Rede Vitória Ltda,Fernanda Costa,2025-07-01,Maceió,AL,Indústria,Nordeste
+75326033000126,Rede Vitória S.A.,Ana Ribeiro,2025-01-20,Salvador,BA,Varejo,Nordeste
+00835058000134,Rede Vitória S.A.,Juliana Alves,2024-12-06,Recife,PE,Serviços,Nordeste
+46773782000159,Atacado Atlântico S.A.,Ana Ribeiro,2024-07-19,Campinas,SP,Agronegócio,Sudeste
+53950240000126,Atacado Central Ltda,Camila Rocha,2025-07-07,Rio de Janeiro,RJ,Serviços,Sudeste
+41036971000124,Atacado Cerrado Ltda,Bruno Teixeira,2026-03-23,Rio de Janeiro,RJ,Indústria,Sudeste
+58414384000126,Atacado Cerrado Ltda,Bruno Teixeira,2023-12-12,Belo Horizonte,MG,Distribuição,Sudeste
+98169340000165,Atacado Cerrado S.A.,Fernanda Costa,2025-06-02,São Paulo,SP,Varejo,Sudeste
+68727743000191,Atacado Meridional S.A.,Pedro Santos,2025-06-19,Belo Horizonte,MG,Varejo,Sudeste
+27868011000198,Atacado Norte EIRELI,Larissa Pinto,2026-02-05,Campinas,SP,Indústria,Sudeste
+64743671000140,Atacado Nova Era EIRELI,Pedro Santos,2023-02-14,Rio de Janeiro,RJ,Agronegócio,Sudeste
+29413186000187,Atacado Planalto ME,Camila Rocha,2025-06-25,Uberlândia,MG,Serviços,Sudeste
+75255341000187,Atacado Planalto S.A.,Camila Rocha,2025-02-16,Campinas,SP,Serviços,Sudeste
+58760366000184,Atacado Primavera ME,Carlos Souza,2024-12-21,São Paulo,SP,Serviços,Sudeste
+39117182000126,Atacado Progresso EIRELI,Bruno Teixeira,2026-05-27,Rio de Janeiro,RJ,Agronegócio,Sudeste
+84514627000110,Atacado Progresso Ltda,Pedro Santos,2025-11-05,Belo Horizonte,MG,Distribuição,Sudeste
+09805009000171,Atacado Progresso Ltda,Bruno Teixeira,2023-06-14,Uberlândia,MG,Indústria,Sudeste
+74529912000149,Atacado Vitória EIRELI,Larissa Pinto,2025-02-07,São Paulo,SP,Agronegócio,Sudeste
+27354549000199,Atacado Vitória S.A.,Ana Ribeiro,2024-05-09,Belo Horizonte,MG,Agronegócio,Sudeste
+54599102000130,Comercial Aliança EIRELI,Camila Rocha,2025-05-18,Uberlândia,MG,Agronegócio,Sudeste
+61565452000197,Comercial Aliança Ltda,Ana Ribeiro,2025-06-03,Rio de Janeiro,RJ,Varejo,Sudeste
+19136193000184,Comercial Aliança ME,Larissa Pinto,2026-03-03,Uberlândia,MG,Distribuição,Sudeste
+86753396000139,Comercial Bom Sucesso ME,Ricardo Melo,2025-03-01,Rio de Janeiro,RJ,Indústria,Sudeste
+32528809000151,Comercial Central EIRELI,Pedro Santos,2024-05-05,Rio de Janeiro,RJ,Varejo,Sudeste
+86850142000184,Comercial Central ME,Fernanda Costa,2024-10-04,Belo Horizonte,MG,Agronegócio,Sudeste
+80715451000161,Comercial Cerrado ME,Ricardo Melo,2023-04-22,Uberlândia,MG,Indústria,Sudeste
+49808412000143,Comercial Cerrado S.A.,Pedro Santos,2024-07-31,São Paulo,SP,Distribuição,Sudeste
+68388516000115,Comercial Cordilheira Ltda,Fernanda Costa,2026-03-25,Rio de Janeiro,RJ,Agronegócio,Sudeste
+82997376000134,Comercial Estrela EIRELI,Ricardo Melo,2025-04-21,São Paulo,SP,Agronegócio,Sudeste
+50047974000178,Comercial Estrela S.A.,Pedro Santos,2025-01-19,São Paulo,SP,Agronegócio,Sudeste
+72980699000194,Comercial Estrela S.A.,Camila Rocha,2024-01-08,São Paulo,SP,Varejo,Sudeste
+82337498000186,Comercial Horizonte EIRELI,Juliana Alves,2025-01-09,Belo Horizonte,MG,Indústria,Sudeste
+92299590000113,Comercial Litoral S.A.,Larissa Pinto,2025-05-03,São Paulo,SP,Distribuição,Sudeste
+43161172000198,Comercial Norte EIRELI,Carlos Souza,2024-08-23,Belo Horizonte,MG,Serviços,Sudeste
+71746488000173,Comercial Norte ME,Fernanda Costa,2026-05-21,Rio de Janeiro,RJ,Serviços,Sudeste
+07844736000148,Comercial Norte S.A.,Camila Rocha,2025-05-01,Rio de Janeiro,RJ,Agronegócio,Sudeste
+50609835000180,Comercial Primavera ME,Bruno Teixeira,2024-07-26,Belo Horizonte,MG,Distribuição,Sudeste
+56238692000131,Comercial Primavera S.A.,Camila Rocha,2026-04-09,Campinas,SP,Indústria,Sudeste
+93618324000128,Comercial Progresso EIRELI,Larissa Pinto,2026-03-11,São Paulo,SP,Serviços,Sudeste
+36899809000194,Comercial Progresso EIRELI,Pedro Santos,2024-11-26,Belo Horizonte,MG,Serviços,Sudeste
+98593174000193,Comercial União Ltda,Carlos Souza,2024-09-15,Rio de Janeiro,RJ,Agronegócio,Sudeste
+90034324000147,Comercial Vitória ME,Ricardo Melo,2023-12-26,Belo Horizonte,MG,Indústria,Sudeste
+32787747000112,Distribuidora Atlântico ME,Juliana Alves,2024-03-16,São Paulo,SP,Distribuição,Sudeste
+01399049000115,Distribuidora Atlântico ME,Pedro Santos,2024-01-07,Campinas,SP,Distribuição,Sudeste
+91307562000162,Distribuidora Atlântico ME,Carlos Souza,2023-10-10,Campinas,SP,Distribuição,Sudeste
+33754330000194,Distribuidora Bom Sucesso EIRELI,Ana Ribeiro,2024-07-25,Campinas,SP,Serviços,Sudeste
+54353462000195,Distribuidora Bom Sucesso Ltda,Carlos Souza,2025-07-27,Belo Horizonte,MG,Distribuição,Sudeste
+29946804000146,Distribuidora Bom Sucesso ME,Camila Rocha,2025-06-24,Campinas,SP,Indústria,Sudeste
+45054156000161,Distribuidora Bom Sucesso S.A.,Camila Rocha,2025-10-15,Rio de Janeiro,RJ,Serviços,Sudeste
+07935978000129,Distribuidora Central EIRELI,Ana Ribeiro,2025-10-30,São Paulo,SP,Indústria,Sudeste
+32480861000138,Distribuidora Central S.A.,Camila Rocha,2024-08-20,São Paulo,SP,Distribuição,Sudeste
+70430305000149,Distribuidora Cerrado ME,Pedro Santos,2023-03-16,Uberlândia,MG,Indústria,Sudeste
+79627570000155,Distribuidora Litoral Ltda,Ana Ribeiro,2025-04-11,Uberlândia,MG,Serviços,Sudeste
+10433218000121,Distribuidora Norte Ltda,Ana Ribeiro,2024-03-23,Uberlândia,MG,Indústria,Sudeste
+96641605000131,Distribuidora Nova Era Ltda,Ricardo Melo,2023-08-05,Uberlândia,MG,Indústria,Sudeste
+52809885000195,Distribuidora Nova Era ME,Carlos Souza,2024-08-12,São Paulo,SP,Distribuição,Sudeste
+24238849000164,Distribuidora Nova Era S.A.,Marcos Lima,2025-11-09,Uberlândia,MG,Agronegócio,Sudeste
+78377701000147,Distribuidora Planalto EIRELI,Larissa Pinto,2025-01-25,Campinas,SP,Agronegócio,Sudeste
+47896118000137,Distribuidora Planalto ME,Fernanda Costa,2025-07-17,Rio de Janeiro,RJ,Agronegócio,Sudeste
+14732104000159,Distribuidora Planalto S.A.,Fernanda Costa,2026-03-29,Uberlândia,MG,Serviços,Sudeste
+76945314000167,Distribuidora Primavera EIRELI,Carlos Souza,2025-10-09,Campinas,SP,Serviços,Sudeste
+03791769000134,Distribuidora Primavera S.A.,Marcos Lima,2023-01-12,Rio de Janeiro,RJ,Varejo,Sudeste
+97995527000118,Distribuidora Serra EIRELI,Larissa Pinto,2023-04-26,Rio de Janeiro,RJ,Serviços,Sudeste
+11382675000195,Distribuidora União ME,Ana Ribeiro,2025-09-29,Uberlândia,MG,Distribuição,Sudeste
+01065133000134,Distribuidora União ME,Marcos Lima,2024-07-24,Uberlândia,MG,Agronegócio,Sudeste
+43455812000129,Distribuidora União S.A.,Ana Ribeiro,2025-04-29,Campinas,SP,Agronegócio,Sudeste
+66889373000144,Distribuidora Vitória ME,Fernanda Costa,2025-04-08,Rio de Janeiro,RJ,Indústria,Sudeste
+70289517000122,Distribuidora Vitória S.A.,Ricardo Melo,2023-11-13,Uberlândia,MG,Varejo,Sudeste
+46537556000145,Grupo Aliança ME,Carlos Souza,2026-01-09,Rio de Janeiro,RJ,Varejo,Sudeste
+83930103000118,Grupo Aliança S.A.,Pedro Santos,2025-09-21,São Paulo,SP,Indústria,Sudeste
+96499091000136,Grupo Aliança S.A.,Juliana Alves,2023-12-22,Campinas,SP,Distribuição,Sudeste
+73592555000161,Grupo Atlântico Ltda,Fernanda Costa,2024-05-10,Campinas,SP,Agronegócio,Sudeste
+95888794000170,Grupo Bom Sucesso Ltda,Ricardo Melo,2026-04-10,São Paulo,SP,Serviços,Sudeste
+02578729000175,Grupo Bom Sucesso S.A.,Ricardo Melo,2026-06-16,Campinas,SP,Serviços,Sudeste
+84161692000179,Grupo Central Ltda,Fernanda Costa,2024-08-28,Belo Horizonte,MG,Serviços,Sudeste
+38578652000168,Grupo Cerrado EIRELI,Pedro Santos,2026-06-03,Uberlândia,MG,Agronegócio,Sudeste
+45198327000138,Grupo Cerrado EIRELI,Ana Ribeiro,2024-07-24,São Paulo,SP,Distribuição,Sudeste
+88623924000116,Grupo Cerrado Ltda,Bruno Teixeira,2023-09-13,Rio de Janeiro,RJ,Serviços,Sudeste
+31931491000182,Grupo Cerrado ME,Fernanda Costa,2023-05-22,São Paulo,SP,Distribuição,Sudeste
+89178390000194,Grupo Cordilheira Ltda,Carlos Souza,2025-09-07,Uberlândia,MG,Agronegócio,Sudeste
+85977034000180,Grupo Cordilheira ME,Ana Ribeiro,2023-03-01,Campinas,SP,Distribuição,Sudeste
+31323705000180,Grupo Cordilheira S.A.,Larissa Pinto,2023-06-26,Uberlândia,MG,Varejo,Sudeste
+33484344000136,Grupo Meridional EIRELI,Bruno Teixeira,2024-07-14,Rio de Janeiro,RJ,Serviços,Sudeste
+97643815000165,Grupo Meridional EIRELI,Carlos Souza,2024-03-27,São Paulo,SP,Agronegócio,Sudeste
+35348740000121,Grupo Norte Ltda,Fernanda Costa,2023-09-25,Rio de Janeiro,RJ,Serviços,Sudeste
+23511615000154,Grupo Norte ME,Bruno Teixeira,2023-09-13,Uberlândia,MG,Agronegócio,Sudeste
+88568557000144,Grupo Planalto Ltda,Juliana Alves,2024-10-08,Belo Horizonte,MG,Varejo,Sudeste
+92755719000127,Grupo Primavera EIRELI,Pedro Santos,2024-05-26,Uberlândia,MG,Varejo,Sudeste
+03778892000156,Grupo Primavera ME,Fernanda Costa,2026-05-09,Belo Horizonte,MG,Varejo,Sudeste
+33529042000126,Grupo Progresso Ltda,Carlos Souza,2023-09-27,Uberlândia,MG,Varejo,Sudeste
+23226025000162,Grupo Progresso Ltda,Ricardo Melo,2023-03-21,Campinas,SP,Agronegócio,Sudeste
+12067974000114,Grupo Serra ME,Ana Ribeiro,2024-04-23,Campinas,SP,Serviços,Sudeste
+17271551000180,Grupo Serra S.A.,Marcos Lima,2025-01-10,Uberlândia,MG,Distribuição,Sudeste
+12478261000138,Grupo Vitória ME,Carlos Souza,2025-03-22,Rio de Janeiro,RJ,Distribuição,Sudeste
+89083863000167,Grupo Vitória S.A.,Ricardo Melo,2024-11-27,Uberlândia,MG,Serviços,Sudeste
+05423573000138,Indústria Aliança EIRELI,Ana Ribeiro,2025-11-05,Campinas,SP,Distribuição,Sudeste
+69681645000138,Indústria Aliança Ltda,Bruno Teixeira,2025-11-10,Belo Horizonte,MG,Indústria,Sudeste
+37474074000196,Indústria Aliança ME,Fernanda Costa,2026-04-18,Uberlândia,MG,Serviços,Sudeste
+55231243000132,Indústria Aliança S.A.,Camila Rocha,2025-08-08,Uberlândia,MG,Distribuição,Sudeste
+50671657000129,Indústria Atlântico EIRELI,Larissa Pinto,2026-01-07,Rio de Janeiro,RJ,Agronegócio,Sudeste
+46291486000192,Indústria Atlântico Ltda,Ricardo Melo,2025-11-07,Belo Horizonte,MG,Serviços,Sudeste
+09749930000184,Indústria Atlântico ME,Marcos Lima,2024-05-11,Rio de Janeiro,RJ,Varejo,Sudeste
+91216558000156,Indústria Atlântico ME,Bruno Teixeira,2023-03-24,Campinas,SP,Varejo,Sudeste
+51518644000194,Indústria Bom Sucesso Ltda,Larissa Pinto,2023-10-17,Uberlândia,MG,Serviços,Sudeste
+67175655000195,Indústria Bom Sucesso ME,Camila Rocha,2024-08-13,São Paulo,SP,Agronegócio,Sudeste
+83503056000144,Indústria Bom Sucesso S.A.,Camila Rocha,2025-03-21,São Paulo,SP,Agronegócio,Sudeste
+63287083000125,Indústria Cordilheira EIRELI,Camila Rocha,2026-06-08,Rio de Janeiro,RJ,Distribuição,Sudeste
+58404499000194,Indústria Cordilheira ME,Fernanda Costa,2024-11-11,Rio de Janeiro,RJ,Distribuição,Sudeste
+31781080000121,Indústria Estrela ME,Camila Rocha,2024-03-13,Campinas,SP,Agronegócio,Sudeste
+40909743000187,Indústria Horizonte EIRELI,Marcos Lima,2023-07-18,Belo Horizonte,MG,Varejo,Sudeste
+31713900000152,Indústria Horizonte Ltda,Bruno Teixeira,2024-02-29,Campinas,SP,Distribuição,Sudeste
+47095214000151,Indústria Horizonte S.A.,Bruno Teixeira,2025-01-19,Rio de Janeiro,RJ,Distribuição,Sudeste
+61771159000128,Indústria Litoral EIRELI,Ricardo Melo,2026-05-08,São Paulo,SP,Distribuição,Sudeste
+91183842000154,Indústria Nova Era EIRELI,Marcos Lima,2025-06-16,São Paulo,SP,Distribuição,Sudeste
+37947383000149,Indústria Nova Era ME,Camila Rocha,2024-07-31,Rio de Janeiro,RJ,Agronegócio,Sudeste
+33848421000188,Indústria Planalto Ltda,Bruno Teixeira,2024-04-07,Uberlândia,MG,Indústria,Sudeste
+38346578000167,Indústria Planalto Ltda,Fernanda Costa,2023-02-13,São Paulo,SP,Distribuição,Sudeste
+84247451000169,Indústria Planalto ME,Bruno Teixeira,2025-01-19,São Paulo,SP,Varejo,Sudeste
+02296120000121,Indústria Primavera ME,Camila Rocha,2024-11-29,Uberlândia,MG,Indústria,Sudeste
+02786814000143,Indústria Serra ME,Juliana Alves,2023-09-09,Rio de Janeiro,RJ,Indústria,Sudeste
+28922680000125,Indústria Serra S.A.,Marcos Lima,2024-10-22,Uberlândia,MG,Indústria,Sudeste
+53615305000122,Indústria União Ltda,Pedro Santos,2025-08-25,Belo Horizonte,MG,Indústria,Sudeste
+53100330000189,Indústria União ME,Ana Ribeiro,2026-03-01,Campinas,SP,Indústria,Sudeste
+24609539000163,Rede Aliança EIRELI,Ana Ribeiro,2025-12-13,Campinas,SP,Distribuição,Sudeste
+19866524000115,Rede Aliança EIRELI,Camila Rocha,2024-06-09,Belo Horizonte,MG,Agronegócio,Sudeste
+81477005000146,Rede Aliança ME,Camila Rocha,2026-04-03,São Paulo,SP,Distribuição,Sudeste
+46786691000126,Rede Aliança ME,Camila Rocha,2025-11-25,Belo Horizonte,MG,Serviços,Sudeste
+77901043000129,Rede Atlântico ME,Ana Ribeiro,2024-08-13,Uberlândia,MG,Indústria,Sudeste
+62045053000197,Rede Central EIRELI,Bruno Teixeira,2025-04-12,Campinas,SP,Distribuição,Sudeste
+19520585000192,Rede Cordilheira ME,Marcos Lima,2023-10-04,Campinas,SP,Varejo,Sudeste
+40824008000147,Rede Meridional Ltda,Carlos Souza,2026-03-21,Campinas,SP,Serviços,Sudeste
+74596158000158,Rede Meridional Ltda,Larissa Pinto,2023-05-21,Belo Horizonte,MG,Indústria,Sudeste
+02606474000164,Rede Meridional S.A.,Juliana Alves,2024-08-30,Uberlândia,MG,Indústria,Sudeste
+82029702000118,Rede Nova Era EIRELI,Ricardo Melo,2026-03-07,Campinas,SP,Varejo,Sudeste
+64053773000156,Rede Nova Era EIRELI,Carlos Souza,2025-03-26,São Paulo,SP,Serviços,Sudeste
+60481754000184,Rede Nova Era Ltda,Juliana Alves,2025-08-23,Rio de Janeiro,RJ,Varejo,Sudeste
+80592962000130,Rede Progresso ME,Carlos Souza,2025-04-21,Campinas,SP,Serviços,Sudeste
+59514846000151,Rede Serra S.A.,Juliana Alves,2025-05-11,Rio de Janeiro,RJ,Agronegócio,Sudeste
+87214895000121,Rede Serra S.A.,Juliana Alves,2023-10-29,Campinas,SP,Varejo,Sudeste
+88806706000157,Rede Vitória EIRELI,Ana Ribeiro,2024-12-07,Belo Horizonte,MG,Indústria,Sudeste
+86854870000199,Atacado Atlântico ME,Ana Ribeiro,2025-04-28,Londrina,PR,Indústria,Sul
+18255371000143,Atacado Bom Sucesso ME,Larissa Pinto,2025-03-14,Caxias do Sul,RS,Distribuição,Sul
+38427978000175,Atacado Central EIRELI,Bruno Teixeira,2025-01-21,Porto Alegre,RS,Distribuição,Sul
+38061744000151,Atacado Cordilheira Ltda,Fernanda Costa,2024-02-15,Porto Alegre,RS,Serviços,Sul
+74349021000120,Atacado Estrela S.A.,Bruno Teixeira,2023-05-05,Florianópolis,SC,Agronegócio,Sul
+89994043000176,Atacado Horizonte ME,Pedro Santos,2023-04-22,Londrina,PR,Indústria,Sul
+31527420000153,Atacado Horizonte S.A.,Larissa Pinto,2025-04-10,Florianópolis,SC,Agronegócio,Sul
+10393087000110,Atacado Horizonte S.A.,Fernanda Costa,2023-12-30,Florianópolis,SC,Serviços,Sul
+97700886000111,Atacado Litoral EIRELI,Carlos Souza,2025-10-25,Porto Alegre,RS,Agronegócio,Sul
+23320616000135,Atacado Litoral EIRELI,Ana Ribeiro,2023-06-28,Curitiba,PR,Agronegócio,Sul
+36440892000190,Atacado Meridional Ltda,Fernanda Costa,2025-02-19,Caxias do Sul,RS,Distribuição,Sul
+04991547000192,Atacado Meridional S.A.,Bruno Teixeira,2025-08-16,Londrina,PR,Serviços,Sul
+88444310000160,Atacado Meridional S.A.,Carlos Souza,2025-01-08,Londrina,PR,Varejo,Sul
+80072290000138,Atacado Serra EIRELI,Ricardo Melo,2025-02-10,Florianópolis,SC,Serviços,Sul
+10386571000184,Atacado União ME,Ana Ribeiro,2026-04-27,Porto Alegre,RS,Distribuição,Sul
+88767677000131,Atacado Vitória S.A.,Pedro Santos,2023-03-08,Porto Alegre,RS,Serviços,Sul
+77752047000124,Cliente Cadastrado em Duas Regionais Ltda,Ana Ribeiro,2025-03-10,Porto Alegre,RS,Varejo,Sul
+74374896000184,Comercial Atlântico EIRELI,Bruno Teixeira,2026-05-01,Porto Alegre,RS,Distribuição,Sul
+69137367000176,Comercial Atlântico S.A.,Ana Ribeiro,2024-09-29,Florianópolis,SC,Distribuição,Sul
+59970629000165,Comercial Central EIRELI,Juliana Alves,2024-01-25,Curitiba,PR,Agronegócio,Sul
+54589297000153,Comercial Central ME,Carlos Souza,2023-09-12,Porto Alegre,RS,Indústria,Sul
+79825071000147,Comercial Central S.A.,Fernanda Costa,2024-09-30,Caxias do Sul,RS,Serviços,Sul
+29121277000150,Comercial Cerrado EIRELI,Juliana Alves,2025-07-14,Caxias do Sul,RS,Serviços,Sul
+62890233000117,Comercial Cordilheira Ltda,Fernanda Costa,2024-02-12,Curitiba,PR,Serviços,Sul
+69146303000121,Comercial Cordilheira Ltda,Pedro Santos,2023-12-26,Caxias do Sul,RS,Varejo,Sul
+04420678000180,Comercial Cordilheira Ltda,Marcos Lima,2023-09-06,Curitiba,PR,Varejo,Sul
+80100623000118,Comercial Horizonte ME,Fernanda Costa,2023-05-04,Curitiba,PR,Distribuição,Sul
+85161227000151,Comercial Litoral ME,Juliana Alves,2025-07-03,Curitiba,PR,Serviços,Sul
+82710910000143,Comercial Norte ME,Bruno Teixeira,2024-08-09,Curitiba,PR,Distribuição,Sul
+33918785000119,Comercial Norte S.A.,Larissa Pinto,2026-01-04,Londrina,PR,Indústria,Sul
+39596292000136,Comercial Nova Era EIRELI,Larissa Pinto,2026-01-08,Curitiba,PR,Indústria,Sul
+20863536000150,Comercial Nova Era Ltda,Bruno Teixeira,2023-04-18,Florianópolis,SC,Indústria,Sul
+01462638000141,Comercial Primavera EIRELI,Camila Rocha,2026-01-20,Londrina,PR,Agronegócio,Sul
+97024629000187,Comercial Primavera EIRELI,Juliana Alves,2023-04-11,Caxias do Sul,RS,Agronegócio,Sul
+40193802000163,Comercial Primavera ME,Marcos Lima,2024-08-15,Curitiba,PR,Varejo,Sul
+89025039000128,Comercial Serra S.A.,Larissa Pinto,2024-05-07,Caxias do Sul,RS,Distribuição,Sul
+06436110000137,Comercial União S.A.,Bruno Teixeira,2025-06-30,Caxias do Sul,RS,Varejo,Sul
+03236519000185,Comercial Vitória Ltda,Juliana Alves,2025-06-27,Florianópolis,SC,Indústria,Sul
+58199560000147,Distribuidora Aliança S.A.,Larissa Pinto,2025-12-03,Caxias do Sul,RS,Indústria,Sul
+57569245000187,Distribuidora Bom Sucesso S.A.,Ricardo Melo,2024-10-15,Curitiba,PR,Serviços,Sul
+06762676000154,Distribuidora Central ME,Larissa Pinto,2024-04-06,Londrina,PR,Indústria,Sul
+04754121000133,Distribuidora Cerrado ME,Ana Ribeiro,2023-02-23,Caxias do Sul,RS,Varejo,Sul
+79334101000161,Distribuidora Cerrado ME,Carlos Souza,2023-01-20,Caxias do Sul,RS,Indústria,Sul
+51238282000152,Distribuidora Cordilheira S.A.,Ricardo Melo,2024-01-13,Londrina,PR,Indústria,Sul
+12528669000127,Distribuidora Estrela S.A.,Camila Rocha,2026-01-05,Londrina,PR,Indústria,Sul
+96504773000155,Distribuidora Estrela S.A.,Larissa Pinto,2025-02-17,Londrina,PR,Varejo,Sul
+77590175000118,Distribuidora Horizonte ME,Juliana Alves,2025-10-10,Londrina,PR,Serviços,Sul
+62244472000118,Distribuidora Litoral ME,Pedro Santos,2025-09-18,Curitiba,PR,Varejo,Sul
+01657120000180,Distribuidora Meridional ME,Juliana Alves,2024-08-11,Curitiba,PR,Serviços,Sul
+25871397000121,Distribuidora Norte ME,Marcos Lima,2025-11-17,Londrina,PR,Agronegócio,Sul
+26221890000188,Distribuidora Nova Era S.A.,Marcos Lima,2025-04-23,Curitiba,PR,Distribuição,Sul
+68562185000116,Distribuidora Planalto Ltda,Fernanda Costa,2026-05-24,Porto Alegre,RS,Distribuição,Sul
+57861035000172,Distribuidora Progresso ME,Larissa Pinto,2026-02-03,Londrina,PR,Serviços,Sul
+15107029000165,Distribuidora Vitória ME,Ricardo Melo,2023-12-20,Caxias do Sul,RS,Serviços,Sul
+73875717000199,Grupo Aliança EIRELI,Carlos Souza,2023-08-24,Caxias do Sul,RS,Varejo,Sul
+66618892000145,Grupo Aliança S.A.,Marcos Lima,2026-01-03,Porto Alegre,RS,Serviços,Sul
+06234456000199,Grupo Cordilheira EIRELI,Juliana Alves,2023-06-02,Florianópolis,SC,Indústria,Sul
+29991191000146,Grupo Estrela EIRELI,Ricardo Melo,2025-09-21,Londrina,PR,Distribuição,Sul
+21182339000177,Grupo Litoral ME,Ana Ribeiro,2025-02-03,Florianópolis,SC,Agronegócio,Sul
+64814917000168,Grupo Norte ME,Larissa Pinto,2023-12-08,Londrina,PR,Serviços,Sul
+07836134000114,Grupo Nova Era Ltda,Camila Rocha,2023-08-29,Caxias do Sul,RS,Indústria,Sul
+29096561000111,Grupo Planalto S.A.,Camila Rocha,2025-02-05,Porto Alegre,RS,Agronegócio,Sul
+67741862000157,Grupo Progresso ME,Carlos Souza,2024-06-23,Caxias do Sul,RS,Agronegócio,Sul
+02027588000143,Grupo União EIRELI,Ana Ribeiro,2023-03-02,Curitiba,PR,Serviços,Sul
+76137918000111,Grupo União ME,Larissa Pinto,2025-05-11,Florianópolis,SC,Serviços,Sul
+54494812000162,Grupo União S.A.,Juliana Alves,2023-10-27,Porto Alegre,RS,Serviços,Sul
+73112196000154,Grupo União S.A.,Pedro Santos,2023-06-22,Caxias do Sul,RS,Indústria,Sul
+54379937000123,Grupo Vitória ME,Fernanda Costa,2026-06-24,Curitiba,PR,Agronegócio,Sul
+82742257000189,Grupo Vitória ME,Marcos Lima,2024-02-04,Porto Alegre,RS,Agronegócio,Sul
+35521570000143,Indústria Aliança EIRELI,Pedro Santos,2023-08-10,Curitiba,PR,Varejo,Sul
+74112490000137,Indústria Aliança S.A.,Fernanda Costa,2025-03-22,Florianópolis,SC,Distribuição,Sul
+86863375000129,Indústria Central Ltda,Ricardo Melo,2026-06-13,Florianópolis,SC,Varejo,Sul
+20969029000150,Indústria Central ME,Marcos Lima,2024-11-09,Londrina,PR,Varejo,Sul
+40331739000136,Indústria Cerrado EIRELI,Pedro Santos,2025-02-18,Caxias do Sul,RS,Agronegócio,Sul
+79356465000124,Indústria Cerrado S.A.,Bruno Teixeira,2023-02-25,Londrina,PR,Agronegócio,Sul
+85050641000136,Indústria Estrela ME,Carlos Souza,2023-10-19,Londrina,PR,Serviços,Sul
+93204899000163,Indústria Horizonte EIRELI,Juliana Alves,2025-02-16,Florianópolis,SC,Distribuição,Sul
+95590599000128,Indústria Meridional EIRELI,Marcos Lima,2025-10-01,Londrina,PR,Varejo,Sul
+24191380000115,Indústria Norte ME,Fernanda Costa,2025-02-23,Porto Alegre,RS,Indústria,Sul
+33119079000196,Indústria Norte ME,Camila Rocha,2024-04-24,Porto Alegre,RS,Distribuição,Sul
+61825128000160,Indústria Planalto Ltda,Carlos Souza,2024-09-03,Londrina,PR,Agronegócio,Sul
+52414060000130,Indústria Planalto S.A.,Juliana Alves,2024-07-05,Londrina,PR,Agronegócio,Sul
+59321334000178,Indústria Primavera EIRELI,Marcos Lima,2023-12-27,Porto Alegre,RS,Indústria,Sul
+71040541000119,Indústria Primavera S.A.,Ana Ribeiro,2026-01-25,Florianópolis,SC,Varejo,Sul
+32447209000189,Indústria Serra ME,Ricardo Melo,2026-02-01,Londrina,PR,Agronegócio,Sul
+56624628000170,Indústria Serra S.A.,Camila Rocha,2023-04-29,Curitiba,PR,Distribuição,Sul
+45054447000199,Indústria União EIRELI,Camila Rocha,2024-10-19,Porto Alegre,RS,Serviços,Sul
+94937597000135,Indústria União Ltda,Ricardo Melo,2023-02-18,Londrina,PR,Indústria,Sul
+37854777000131,Indústria União ME,Marcos Lima,2026-01-15,Florianópolis,SC,Varejo,Sul
+59856420000150,Indústria Vitória EIRELI,Carlos Souza,2025-08-24,Londrina,PR,Distribuição,Sul
+36729466000167,Rede Aliança ME,Bruno Teixeira,2024-07-23,Porto Alegre,RS,Serviços,Sul
+66882634000136,Rede Aliança ME,Fernanda Costa,2023-07-09,Florianópolis,SC,Distribuição,Sul
+30284395000183,Rede Bom Sucesso S.A.,Pedro Santos,2023-10-21,Londrina,PR,Distribuição,Sul
+05162713000159,Rede Central Ltda,Fernanda Costa,2025-01-22,Porto Alegre,RS,Serviços,Sul
+97968868000114,Rede Cerrado Ltda,Ana Ribeiro,2024-05-23,Florianópolis,SC,Serviços,Sul
+30469901000134,Rede Cerrado S.A.,Camila Rocha,2024-03-03,Londrina,PR,Serviços,Sul
+18017046000133,Rede Estrela EIRELI,Ricardo Melo,2025-07-07,Curitiba,PR,Agronegócio,Sul
+79087406000142,Rede Horizonte Ltda,Carlos Souza,2025-05-17,Porto Alegre,RS,Serviços,Sul
+66093796000159,Rede Horizonte S.A.,Pedro Santos,2023-05-09,Porto Alegre,RS,Distribuição,Sul
+17659180000139,Rede Meridional EIRELI,Carlos Souza,2023-06-02,Curitiba,PR,Serviços,Sul
+86879374000120,Rede Norte S.A.,Ana Ribeiro,2025-07-08,Caxias do Sul,RS,Indústria,Sul
+77063242000145,Rede Nova Era EIRELI,Ana Ribeiro,2025-01-31,Porto Alegre,RS,Indústria,Sul
+14593327000129,Rede Nova Era ME,Bruno Teixeira,2025-08-22,Caxias do Sul,RS,Distribuição,Sul
+94311426000191,Rede Primavera EIRELI,Fernanda Costa,2023-08-07,Curitiba,PR,Varejo,Sul
+00292185000119,Rede Primavera Ltda,Fernanda Costa,2024-09-10,Florianópolis,SC,Serviços,Sul
+22675289000155,Rede Progresso ME,Pedro Santos,2024-08-26,Curitiba,PR,Indústria,Sul
+61497310000136,Rede Serra Ltda,Camila Rocha,2023-08-25,Curitiba,PR,Serviços,Sul
+15579249000185,Rede União EIRELI,Ana Ribeiro,2024-05-03,Porto Alegre,RS,Serviços,Sul
+37416724000140,Rede União ME,Ricardo Melo,2023-06-01,Florianópolis,SC,Agronegócio,Sul
