@@ -8,6 +8,11 @@ import pandas as pd
 import numpy as np
 import random
 from datetime import date, timedelta
+from pathlib import Path
+
+RAIZ = Path(__file__).resolve().parent.parent
+BRUTOS = RAIZ / "dados_brutos"
+BRUTOS.mkdir(exist_ok=True)
 
 rng = random.Random(42)
 np_rng = np.random.default_rng(42)
@@ -82,7 +87,7 @@ df_se = df_se.rename(columns={
     "cnpj": "CNPJ", "nome": "Razao_Social", "vendedor": "Vendedor",
     "data": "Data_Cadastro", "cidade": "Cidade", "uf": "UF", "segmento": "Segmento",
 })
-df_se.to_csv("/home/claude/etl_project/dados_brutos/sudeste_clientes.csv", index=False, encoding="utf-8")
+df_se.to_csv(BRUTOS / "sudeste_clientes.csv", index=False, encoding="utf-8")
 
 # =================================================================
 # SUL: CSV, Latin-1, ponto e vírgula, nomes de coluna em minúsculo,
@@ -106,7 +111,7 @@ df_sul = df_sul.rename(columns={
     "data": "dt_cadastro", "cidade": "municipio", "uf": "estado", "segmento": "segmento_mercado",
 })
 df_sul.to_csv(
-    "/home/claude/etl_project/dados_brutos/sul_clientes.csv",
+    BRUTOS / "sul_clientes.csv",
     index=False, sep=";", encoding="latin-1",
 )
 
@@ -130,7 +135,7 @@ df_ne = df_ne.rename(columns={
 # insere uma linha totalmente vazia no meio do arquivo (comum em export manual)
 df_ne = pd.concat([df_ne.iloc[:40], pd.DataFrame([{c: None for c in df_ne.columns}]), df_ne.iloc[40:]], ignore_index=True)
 
-df_ne.to_excel("/home/claude/etl_project/dados_brutos/nordeste_clientes.xlsx", index=False)
+df_ne.to_excel(BRUTOS / "nordeste_clientes.xlsx", index=False)
 
 # =================================================================
 # CENTRO-OESTE: CSV, tabulação, CNPJ com letra por erro de digitação,
@@ -156,7 +161,7 @@ df_co = df_co.rename(columns={
     "data_serial": "Cadastro", "cidade": "Cidade", "uf": "Uf", "segmento": "Segmento",
 })
 df_co.to_csv(
-    "/home/claude/etl_project/dados_brutos/centro_oeste_clientes.csv",
+    BRUTOS / "centro_oeste_clientes.csv",
     index=False, sep="\t", encoding="utf-8",
 )
 
@@ -165,7 +170,7 @@ df_co.to_csv(
 # também no Sul (cliente que aparece em duas regionais ao mesmo tempo)
 # =================================================================
 cnpj_cruzado = cnpjs_se[50]
-with open("/home/claude/etl_project/dados_brutos/sul_clientes.csv", "a", encoding="latin-1") as f:
+with open(BRUTOS / "sul_clientes.csv", "a", encoding="latin-1") as f:
     f.write(f"{cnpj_cruzado};Cliente Cadastrado em Duas Regionais Ltda;Ana Ribeiro;2025-03-10;Porto Alegre;RS;Varejo\n")
 
 print("Arquivos de origem gerados:")
